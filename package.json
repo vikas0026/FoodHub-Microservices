@@ -1,0 +1,25 @@
+{
+  "name": "foodhub-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@apollo/gateway": "^2.13.3",
+    "@apollo/server": "^5.5.0",
+    "apollo-server-express": "^3.13.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.1",
+    "graphql": "^16.13.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.0"
+  }
+}
